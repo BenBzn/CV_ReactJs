@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import User from "./components/User";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="gridContainer">
+        <div className="sidebar">
+          <User />
+        </div>
+        <div className="main">main</div>
+      </div>
+
+      {/* react, material ui, react-html2pdf */}
+      {/* css var */}
+      {/* left column */}
+      {/* User */}
+      {/* skills */}
+      {/* languages - skills  */}
+      {/* interests */}
+      {/* right column */}
+      {/* profil */}
+      {/* formations */}
+      {/* experiences */}
+      {/* pdf generator */}
     </div>
   );
 }
